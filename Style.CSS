@@ -1,0 +1,275 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.head
+ {
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+ }
+ .navbar
+ {
+   border: 2px transparent;
+   width: 85%; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   cursor: pointer;
+   
+ } 
+h2
+{
+   margin-left: 25%;
+   margin-top: 3%;
+   font-size: 40px;
+}
+button
+{
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border: solid 1px white;
+   border-radius: 15px;
+   background-color: chartreuse;
+   cursor: pointer;
+   font-size: medium;
+   margin-top: 3%;
+}
+.content
+{
+color: white;
+font-size: 23px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+nav
+{
+   top: 0;
+   right: 0;
+   position: absolute;
+   width: 10px;
+   height: 50vh;
+   background: linear-gradient(84deg, rgb(46, 46, 231) 0%,);
+}
+.bubbles img
+{
+   height: 50%;
+   width: 50px;
+}
+
+.bubbles img:nth-child(1)
+{
+animation-delay: 1s;
+}
+.bubbles img:nth-child(2)
+{
+animation-delay: 2s;
+width: 15px;
+}
+.bubbles img:nth-child(3)
+{
+animation-delay: 2.5s;
+width: 25px;
+}
+.bubbles img:nth-child(4)
+{
+animation-delay: 3s;
+width: 25px;
+}
+.bubbles img:nth-child(5)
+{
+animation-delay: 3.5s;
+width: 35px;
+}
+.bubbles img:nth-child(6)
+{
+animation-delay: 4s;
+width: 40px;
+}
+.bubbles
+{
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; width: 100%;
+   animation: mkgs 5s infinite linear;
+}
+@keyframes mkgs
+{
+   0%{transform: translateY(0); opacity: 0;}
+   50%{opacity: 1;}
+   75%{opacity: 1;}
+   100%{transform: translateY(-80vh); opacity: 0;}
+}
+.sidebar{
+   width: 58px;
+   height: 100vh;
+   background: linear-gradient(84deg,color blue);
+   position: absolute;
+   top: 0%;
+   right: 0%;
+   }
+.menu img
+{
+   width: 3%;
+   height: 3%;
+   margin-left: 94%;
+}
+.logos 
+{
+   margin-top: 5%;
+   width: 2%;
+   height: 2%;
+   margin-left: 94%;
+}
+.footer
+{
+   margin-top: 3%;
+   width: -1%;
+   height: -1%;
+   margin-left: 94%;
+}
+
+@media screen and (max-width:450px) 
+{
+   .sidebar{
+      width: 100px;
+      height: 60vh;
+      background: linear-gradient(84deg,color blue);
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      }
+
+   .head
+ {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://tinyurl.com/wfnva32u);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    
+    h1
+    {
+      font-size: 40px;
+      color: wheat;
+    }
+ }
+ nav
+{
+   top: 0;
+   right: 0;
+   position: absolute;
+   width: 10px;
+   height: 50vh;
+   background: linear-gradient(84deg, blue 0%,);
+   
+}
+.menu img
+{
+   width: 24px;
+   margin: 190% auto 0;
+   display: block;
+   cursor: pointer;
+   margin-left: 20px;
+}
+.logos 
+{
+  
+   display: block;
+   width: 100px;
+   margin-left: 300%;
+   display: flex;
+   cursor: pointer;
+   margin: -10% auto 0;
+
+}
+.footer
+{
+   display: block;
+   width: 100px;
+   margin-left: 80%;
+   display: flex;
+   margin: -1% auto 0;
+
+}
+}
+@media screen and (max-width:600px) and (min-width:450px)
+{
+   .head
+ {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/OIP.I72lZkRHH1bAyVGWYE2JhQHaEo?pid=ImgDet&w=474&h=296&rs=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+ }
+   .content h1 
+   {
+      color: navy;
+      font-size: 60px;
+   }
+   .sidebar{
+      width: 100px;
+      height: 60vh;
+      background: linear-gradient(84deg,color blue);
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      }
+      nav
+      {
+         top: 0;
+         right: 0;
+         position: absolute;
+         width: 10px;
+         height: 50vh;
+         background: linear-gradient(84deg, blue 0%,);
+         
+      }
+
+.menu img
+{
+   width: 20px;
+   margin: 100% auto 0;
+   display: block;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.logos 
+{
+  
+   display: block;
+   width: 360px;
+   margin-left: 100%;
+   display: flex;
+   cursor: pointer;
+   margin: -8% auto 0;
+
+}
+.footer
+{
+   display: block;
+   width: 77%;
+   margin-left: 100%;
+   display: flex;
+   cursor: pointer;
+   margin: 2% auto 0;
+
+}
+
+}
